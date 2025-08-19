@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
         numeroMaximo = parseInt(numeroMaximo);
         let numeroSorteado = Math.random() * numeroMaximo;
        resultado.innerText=Math.floor(numeroSorteado+1)
-        console.log(Math.round(numeroSorteado));
         document.querySelector('.resultado').style.display='block'
     }
     )
